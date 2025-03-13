@@ -1,0 +1,81 @@
+{
+    "schemas": [
+        "urn:ietf:params:scim:api:messages:2.0:PatchOp"
+    ],
+    "Operations": [
+        {
+            "op": "replace",
+            "path": "urn:ietf:params:scim:schemas:extension:spend:2.0:User:customData",
+            "value": [
+      {
+        "id": "custom20",
+        "value": "REF4"
+      },
+      {
+        "id": "custom21",
+        "value": "#stateProvince#"
+      },
+      {
+        "id": "custom9",
+        "value": "No"
+      },
+      {
+        "id": "custom15",
+        "value": "2"
+      },
+      {
+        "id": "custom16",
+        "value": "N"
+      },
+      {
+        "id": "custom19",
+        "value": "#payrollID#"
+      },
+      {
+        "id": "orgunit1",
+        "value": "#countryCode#"
+      },
+      {
+        "id": "custom18",
+        "value": "E"
+      },
+      {
+        "id": "custom4",
+        "value": "N/A"
+      },
+      {
+        "id": "orgunit2",
+        "value": "#legalEntity#"
+      },
+      {
+        "id": "custom1",
+        "value": ""
+      },
+      {
+        "id": "orgunit3",
+        "value": "#department#"
+      },
+      {
+        "id": "orgunit4",
+        "value": "N"
+      },
+      {
+        "id": "custom7",
+        "value": "No"
+      },
+      {
+        "id": "custom8",
+        "value": "No"
+      },
+      {
+        "id": "custom5",
+        "value": "N/A"
+      },
+      {
+        "id": "custom6",
+        "value": "N/A"
+      }
+            ]
+        }
+    ]
+}

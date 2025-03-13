@@ -1,0 +1,25 @@
+{
+    "schemas": [
+        "urn:ietf:params:scim:api:messages:2.0:PatchOp"
+    ],
+    "Operations": [
+        {
+            "op": "replace",
+            "path": "urn:ietf:params:scim:schemas:extension:spend:2.0:Role:roles",
+            "value": [
+                {
+                    "roleName": "TRAVEL_USER"
+                },
+                {
+                    "roleName": "EXP_TRAVEL_AND_EXPENSE_USER"
+                },
+                {
+                    "roleName": "EXP_USER"
+                },
+				                {
+                    "roleName": "EXP_APPROVER"
+                }
+            ]
+        }
+    ]
+}

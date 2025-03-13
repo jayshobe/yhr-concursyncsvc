@@ -1,0 +1,117 @@
+{
+  "schemas": [
+    "urn:ietf:params:scim:schemas:core:2.0:User"
+  ],
+  "userName": "#email#",
+  "active": true,
+  "preferredLanguage": "en-US",
+  "timezone": "America/New_York",
+  "name": {
+    "honorificSuffix": null,
+    "givenName": "#firstName#",
+    "familyName": "#lastName#",
+    "familyNamePrefix": null,
+    "honorificPrefix": null,
+    "middleName": "#middleName#"
+  },
+  "emails": [
+    {
+      "type": "work",
+      "value": "#email#"
+    }
+  ],
+  "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+    "terminationDate": null,
+    "companyId": "#companyId#",
+    "costCenter": null,
+    "startDate": "#startDate#",
+    "employeeNumber": "#payrollID#"
+  },
+  "urn:ietf:params:scim:schemas:extension:spend:2.0:User": {
+    "locale": "en-US",
+    "country": "#country#",
+    "ledgerCode": "QuickBooks",
+    "reimbursementCurrency": "#currency#",
+    "testEmployee": false,
+	"stateProvince": "#stateProvince#",
+    "cashAdvanceAccountCode": "#cashAdvanceAccountCode#",
+    "biManager": {
+      "value": "#expenseApprover#"
+    },
+    "customData": [
+      {
+        "id": "custom15",
+        "value": "#payrollBatchID#"
+      },
+      {
+        "id": "custom16",
+        "value": "N"
+      },
+      {
+        "id": "custom18",
+        "value": "#payrollDeductionCode#"
+      },
+      {
+        "id": "custom19",
+        "value": "#payrollID#"
+      },
+      {
+        "id": "orgUnit1",
+        "value": "#countryCode#"
+      },
+      {
+        "id": "orgUnit2",
+        "value": "#legalEntity#"
+      },
+      {
+        "id": "orgUnit3",
+        "value": "#department#"
+      },
+      {
+        "id": "orgUnit4",
+        "value": "N"
+      },
+      {
+        "id": "custom21",
+        "value": "#stateProvince2#"
+      },
+      {
+        "id": "custom20",
+        "value": "#payrollCompany#"
+      }
+    ]
+  },
+  "urn:ietf:params:scim:schemas:extension:spend:2.0:Role": {
+    "roles": [
+      {
+        "roleName": "TRAVEL_USER"
+      },
+      {
+        "roleName": "EXP_TRAVEL_AND_EXPENSE_USER"
+      },
+      {
+        "roleName": "EXP_USER",
+        "roleGroups": []
+      }
+    ]
+  },
+  "urn:ietf:params:scim:schemas:extension:spend:2.0:Approver": {
+    "report": [
+      {
+        "approver": {
+          "value": "#expenseApprover#"
+        },
+        "primary": true
+      }
+    ]
+  },
+  "urn:ietf:params:scim:schemas:extension:travel:2.0:User": {
+    "ruleClass": {
+      "name": "#travelClass#"
+    },
+    "manager": {
+      "value": "#expenseApprover#"
+    },
+	"orgUnit": "#orgUnit5#"
+  }
+}
