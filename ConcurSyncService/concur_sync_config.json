@@ -1,0 +1,18 @@
+{
+  "ConnStr": "Server=10.242.218.40;Database=HR1_Live_JLS;Trusted_Connection=True;Connection Timeout=300;",
+  "UatConnStr": "Server=10.242.218.40;Database=HR1_Live_JLS;Trusted_Connection=True;Connection Timeout=300;",
+  "IsUat": false,
+  "LogOnly": false,
+  "UatClientId": "8cdc6230-8743-4c55-9f6d-7748e0ee9dbc",
+  "UatClientSecret": "a0438086-dac8-4699-b7c2-9a290bf762e5",
+  "UatCompanyId": "65d54415-06b4-4d3b-993b-a05298f475ee",
+  "UatRefreshToken": "3o2m8h03aga2l9xg3ilwfr73ntvniu",
+  "ClientId": "d8039271-661e-43c6-9307-40c62aa07e39",
+  "ClientSecret": "9c6e2085-f495-436c-a293-138f2850836b",
+  "CompanyId": "c357be22-0799-4ee3-b7c1-6f6379c64d3c",
+  "RefreshToken": "3e5xq1g2bda2v9ic3vcr2sf3b149l1",
+  "SaveFiles": false,
+  "LogDir": "C:\\Users\\jays\\Documents\\GitHub\\ConcurSync\\logs\\",
+  "TemplateDir": "C:\\Users\\jays\\Documents\\GitHub\\ConcurSync\\templates\\",
+  "ServiceInterval": 0
+}
